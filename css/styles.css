@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+div.menu{
+    background-color: rgb(72, 184, 228);
+    padding: 1vw 4vw;
+}
+
+div.cemas{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.logo{
+    width: calc(2em + 1vw);
+    margin-right: .5vw;
+}
+
+h1.title{
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+}
+
+button.log_out{
+    background: none;
+    font-weight: bold;
+    border: none;
+    font-size: calc(1.3vw + 1.5vh);
+    color: white;
+    border-radius: .7vw;
+    padding: .5vw 2vw;
+}
+
+button.log_out:hover{
+    background-color: rgba(49, 151, 192, 0.418);
+    box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.349) inset;
+}
+
+
