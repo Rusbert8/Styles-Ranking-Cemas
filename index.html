@@ -21,8 +21,35 @@
             </header>
         </div>
     </div>
-    <div>
+    <div class="container">
+        <nav>
+            <form action="">
+                <div class="row">
+                    <label class=""><!-- col-lg-3 col-md-6 col-sm-6 -->
+                        <span>Curso</span>
+                        <input class="curso" type="text" placeholder="6D">
+                    </label>
+                    
+                    <label class=""><!-- col-lg-3 col-md-6 col-sm-6 -->
+                        <span>Periodo</span>
+                        <input class="periodo" type="text" placeholder="2020-2021">
+                    </label>
 
+                    <button class="buscar btn btn-primary">Buscar</button><!-- col-lg-1 col-md-4 col-sm-6 -->
+                    
+                    <label class=""><!-- col-lg-5 col-md-8 col-sm-6 -->
+                        <span>Filtrar por</span>
+                        <select class="dropdown" name="" id="">
+                            <option value="">Número (Defecto)</option>
+                            <option value="">Promedio Académico</option>
+                            <option value="">Promedio Técnico</option>
+                            <option value="">Promedio General</option>
+                        </select>
+                    </label>
+
+                </div>
+            </form>
+        </nav>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>

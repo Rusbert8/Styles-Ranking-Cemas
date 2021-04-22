@@ -1,10 +1,15 @@
+/*------------------------ Estilos Generales ------------------------*/
+
 body {
     font-family: "Open Sans", sans-serif;
 }
 
+/*------------------------ Componente Header ------------------------*/
+
 div.menu{
     background-color: rgb(72, 184, 228);
-    padding: 1vw 4vw;
+    padding: .7vw 4vw;
+    margin-bottom: 30px;
 }
 
 div.cemas{
@@ -20,13 +25,15 @@ header{
 
 img.logo{
     width: calc(2em + 1vw);
-    margin-right: .5vw;
+    margin-right: .7vw;
 }
 
 h1.title{
     font-weight: 800;
     color: white;
+    font-size: calc(2.5vw + 2.5vh);
     display: inline-block;
+    margin-bottom: 0;
 }
 
 button.log_out{
@@ -42,6 +49,62 @@ button.log_out{
 button.log_out:hover{
     background-color: rgba(49, 151, 192, 0.418);
     box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.349) inset;
+}
+
+form div{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row>*{
+    width: auto;
+}
+
+/* Inputs Curso y Periodo */
+label{
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+label span{
+    font-size: calc(1.1vw + 1.1vh);
+    color: gray;
+    margin-right: 1vw;
+}
+
+label input.curso, input.periodo{
+    border: 2px solid rgb(87, 201, 246);
+    border-radius: .3vw;
+    padding: .7vw;
+}
+
+
+/* Boton para buscar */
+button.buscar{
+    background-color: rgb(66, 173, 216);
+    font-weight: 800;
+    font-size: calc(1.1vw + 1.1vh);
+    margin-left: .3vw;
+}
+
+button.buscar:hover{
+    background-color: white;
+    color: rgb(53, 150, 189);
+}
+
+/* Filtrar */
+select.dropdown{
+    border: 2px solid rgb(87, 201, 246);
+    border-radius: .3vw;
+    padding: .9vw;
+    color: gray;
+    border-color: rgb(109, 139, 129);
+}
+
+option{
+    margin: 10px;
 }
 
 
